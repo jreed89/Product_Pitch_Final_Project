@@ -9,7 +9,11 @@ end
 
 # puts doc
 
+<<<<<<< HEAD
 puts tableData = doc.css("table")
+=======
+# puts tableData = doc.css("table")
+>>>>>>> master
 
 puts allTitles = doc.css('td li i').text
 
