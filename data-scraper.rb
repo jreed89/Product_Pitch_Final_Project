@@ -9,9 +9,9 @@ end
 
 # puts doc
 
-puts tableData = doc.css("table")
+# puts tableData = doc.css("table")
 
-# puts allTitles = doc.css('td li i').text
+puts allTitles = doc.css('td li i').text
 
 
 
