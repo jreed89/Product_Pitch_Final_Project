@@ -1,4 +1,35 @@
-h1 {
-	font-family: sans-serif;
-	color: green;
+
+
+nav {
+  height: 40px;
+  text-align: center;
+  position: fixed;
+  background: darkgreen;
+  width: 100%;
+  top: 0;
+  transition: top 0.4s ease-in-out;
+  padding: 15px;
+}
+
+.nav-up {
+  top: -70px; // same as header height. use variables in LESS/SASS
+}
+
+#logo {
+  float:left;
+}
+
+ul li {
+  display: inline;
+  margin-right: 40px;
+}
+
+ul li:hover {
+  cursor: pointer;
+  border-bottom: 1px solid black;
+  padding-bottom; 8px;
+}
+
+h1{
+	padding-top: 70px;
 }
