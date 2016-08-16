@@ -29,7 +29,34 @@ ul li:hover {
   border-bottom: 1px solid black;
   padding-bottom; 8px;
 }
-
-h1{
+@media  (min-width: 670px) and (max-width: 700px) {
+  /*table {
+      background-color: green;
+  }*/
+  .selayoutrow4{
+    background-color: green;
+  }
+}
+/*h1{
 	padding-top: 70px;
+}*/
+/*table {
+	width: 100%;
+	height: auto;
+}
+html {
+	width: 100%;
+	height: auto;
+}*/
+.maindiv {
+  width:100px;
+}
+#leftdiv{
+  width:10%;
+}
+#middlediv{
+  width:60%;
+}
+#rightdiv{
+  width:30%;
 }
