@@ -49,6 +49,7 @@
   padding:15px 20px;
   color:#FFF;
   background:green;
+  list-style-position: inside;
 }
 .nav-item:first-child a {
   border-radius:5px 0 0 5px;
@@ -67,6 +68,7 @@
   .nav-item {
     width:100%;
     float:none;
+    list-style-position: inside;
   }
   html{
     text-align: center;
